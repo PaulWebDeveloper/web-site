@@ -17,7 +17,7 @@
     header .heading {
         padding-right: 20px;
         display: grid;
-        grid-template-columns: auto 640px; 
+        grid-template-columns: auto 640px;
     }
 
     header .header__text {
@@ -40,15 +40,15 @@
     
     .btn-log .btn-log__bg a,
     .btn-reg .btn-reg__bg a {
-        grid-template-columns: auto; 
+        grid-template-columns: auto;
     }
 
     .btn-log .btn-log__triangle {
-        border-bottom: 109px solid transparent; 
+        border-bottom: 109px solid transparent;
     }
         
     .btn-reg .btn-reg__triangle {
-        border-top: 109px solid transparent;    
+        border-top: 109px solid transparent;
     }
 
     /*         Main         */
@@ -86,7 +86,7 @@
     /*   section functions  */
     
     .functions .services>ul>li {
-        width: 230px;  
+        width: 230px;
     }
 
     .functions .services ul {
@@ -95,5 +95,17 @@
 
     .functions .services li p {
         width: 220px;
+    }
+
+    /*        Footer        */
+
+    .footer__menu .footer__bottom-menu {
+        grid-template-columns: 308px 320px auto;
+        justify-content: center;
+        grid-gap: 0 10px;
+    }
+
+    .footer__bottom-menu .area-1 {
+        width: 320px;
     }
 }

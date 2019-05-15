@@ -15,7 +15,7 @@
     }
     
     header .heading {
-        grid-template-columns: auto 490px; 
+        grid-template-columns: auto 490px;
     }
 
     .heading nav ul {
@@ -26,18 +26,18 @@
         margin-top: 238px;
     }
         
-    .btn-log .btn-log__bg, 
+    .btn-log .btn-log__bg,
     .btn-reg .btn-reg__bg,
     .member .buttons a {
-        height: 98px;  
+        height: 98px;
     }
 
     .btn-log .btn-log__triangle {
-        border-bottom: 98px solid transparent;  
+        border-bottom: 98px solid transparent;
     }
         
     .btn-reg .btn-reg__triangle {
-        border-top: 98px solid transparent; 
+        border-top: 98px solid transparent;
     }
 
     /*         Main         */
@@ -77,17 +77,17 @@
         width: 385px;
         height: 346px;
         grid-template-rows: 100%;
-        grid-template-columns: 1fr 13px 1fr;   
+        grid-template-columns: 1fr 13px 1fr;
     }
     
     .domain-prices .price-table ul {
         grid-template-columns: 100%;  
-        grid-template-rows: repeat(4, 1fr);  
+        grid-template-rows: repeat(4, 1fr);
     }
 
     .domain-prices .price-table ul li {
         border-left: transparent;
-        border-bottom: 1px solid #d9d9d9; 
+        border-bottom: 1px solid #d9d9d9;
     }
 
     .domain-prices .price-table ul li:last-child {
@@ -97,7 +97,7 @@
     .price-table .table-stick {
         padding: 0;
         align-content: center;
-        grid-gap: 14px 0;   
+        grid-gap: 14px 0;
     }
 
     .price-table .table-stick li {
@@ -127,7 +127,7 @@
     }
 
     main .package {
-        width: 255px; 
+        width: 255px;
     }
 
     main .packages .container {
@@ -142,7 +142,7 @@
     /*   section about-us   */
 
     main .about-us {
-       height: 650px;  
+       height: 650px;
     }
 
     .about-us .about-container {
@@ -182,7 +182,7 @@
 
     .functions .services {
         display: grid;
-        justify-content: center; 
+        justify-content: center;
     }
 
     .functions .services>ul>li {
@@ -196,5 +196,66 @@
 
     .functions .services li p {
         width: 250px;
+    }
+
+    /*        Footer        */
+    
+    .wrapper footer {
+        height: 500px;
+    }
+    
+    .footer__top-menu .footer__nav-menu {
+        padding-right: 20px;
+    }
+
+    .footer__menu .footer__bottom-menu {
+        margin-top: 0;
+        padding: 0 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .footer__bottom-menu .area-1 {
+        width: auto;
+        padding-top: 20px;
+        border-right: transparent;
+        border-bottom: 1px solid #393939;
+        padding-bottom: 20px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .footer__bottom-menu .area-1 p {
+        width: 600px;
+    }
+    
+    .footer__bottom-menu .area-2 {
+        height: 100px;
+        margin-left: 0;
+        border-right: transparent;
+        border-bottom: 1px solid #393939;
+        display: grid;
+        justify-content: center;
+    }
+
+    .footer__bottom-menu .area-2 ul {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0 10px;
+    }
+
+    .footer__bottom-menu .area-3 {
+        width: 600px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .footer__bottom-menu .area-3 ul {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 5px 20px;
+    }
+
+    .footer__bottom-menu .area-3 p {
+        width: 330px;
     }
 }

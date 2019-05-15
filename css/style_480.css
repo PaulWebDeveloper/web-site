@@ -20,7 +20,7 @@
 
     .btn-log .btn-log__triangle,
     .btn-reg .btn-reg__triangle {
-        display: none;  
+        display: none;
     }
 
     .member .buttons a {
@@ -32,7 +32,7 @@
     /*    section domain    */
     
     main .domain {
-        height: 630px;   
+        height: 630px;
     }
 
     .domain h2 {
@@ -60,11 +60,11 @@
     }
 
     .domain__search .form-domain input[type="text"]::-webkit-input-placeholder {
-        font-size: 14px;   
+        font-size: 14px;
     }
     
     .domain__search .form-domain input[type="text"]:-moz-input-placeholder {
-        font-size: 14px;   
+        font-size: 14px;
     }
 
     form .form-col:last-child {
@@ -74,12 +74,12 @@
 
     form .styled-select {
         width: 45px;
-        height: 28px; 
+        height: 28px;
     }
 
     .domain .domain-prices {
         width: 260px;
-        height: 280px;   
+        height: 280px;
         justify-content: center;
     }
 
@@ -91,7 +91,7 @@
     }
     
     .domain .price-table ul:nth-child(1) {
-        border-right: 1px solid #d9d9d9; 
+        border-right: 1px solid #d9d9d9;
     }
 
     .domain .price-table ul:nth-child(2) {
@@ -113,7 +113,7 @@
     }
 
     main .package {
-        width: 255px; 
+        width: 255px;
         margin-top: 60px;
     }
 
@@ -128,7 +128,7 @@
     /*   section about-us   */
 
     main .about-us {
-        height: 1150px;  
+        height: 1150px;
     }
     
     .about-us .about-container {
@@ -159,7 +159,7 @@
     .about-container .authors ul {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
-        grid-gap: 50px 0px; 
+        grid-gap: 50px 0px;
     }
 
     /*   section functions  */
@@ -169,15 +169,41 @@
     }
 
     .functions .services>ul>li {
-        width: 260px;  
+        width: 260px;
     }
 
     .functions .services ul {
         grid-template-columns: 1fr;
-        justify-items: center; 
+        justify-items: center;
     }
 
     .functions .services li p {
         width: 250px;
+    }
+
+    /*        Footer        */
+
+    .footer__menu .footer__bottom-menu {
+        font-size: 13px
+    }
+
+    .footer__bottom-menu .area-1 {
+        height: 150px;
+    }
+
+    .footer__bottom-menu .area-1 p {
+        width: 260px;
+    }
+
+    .footer__bottom-menu .area-2 ul {
+        grid-gap: 0;
+    }
+
+    .footer__bottom-menu .area-2 ul li {
+        width: 130px;
+    }
+    
+    .footer__bottom-menu .area-3 {
+        font-size: 13px;
     }
 }
