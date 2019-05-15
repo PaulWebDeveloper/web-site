@@ -82,4 +82,18 @@
     .about-container .authors ul {
         grid-gap: 0 50px;
     }
+
+    /*   section functions  */
+    
+    .functions .services>ul>li {
+        width: 230px;  
+    }
+
+    .functions .services ul {
+        grid-gap: 0 9px;
+    }
+
+    .functions .services li p {
+        width: 220px;
+    }
 }

@@ -842,3 +842,78 @@ h6 {
 .radio:checked + .radio-custom::before {
     border-radius: 8px;
 }
+
+/*     section functions     */
+
+.functions {
+    height: 342px;
+}
+
+.functions .container {
+    display: grid;
+    justify-items: center;
+}
+
+.services ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0 51px;
+}
+
+.services>ul>li {
+    width: 255px;
+    height: 180px;
+    text-align: center;
+}
+
+.services ul li {
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.services ul>li:hover {
+    cursor: pointer;
+    box-shadow: 0 0 3px 3px rgba(186, 195, 196, 0.5);
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.icon-circle>img {
+    padding: 15px;
+}
+
+.services li h5 {
+    font-family: Lato-Heavy, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #303030;
+    padding-top: 10px;
+}
+
+.services li p {
+    width: 250px;
+    font-size: 16;
+    color: #7e7e7e;
+    line-height: 1.4;
+}
+
+.color-circle-1 {
+    background: #f1c40f;
+}
+
+.color-circle-2 {
+    background: #0faff1;
+}
+
+.color-circle-3 {
+    background: #95a5a6;
+}
+
+.color-circle-4 {
+    background: #f1540f;
+}

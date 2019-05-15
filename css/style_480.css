@@ -161,4 +161,23 @@
         grid-template-rows: repeat(3, 1fr);
         grid-gap: 50px 0px; 
     }
+
+    /*   section functions  */
+
+    main .functions {
+        height: 1200px;
+    }
+
+    .functions .services>ul>li {
+        width: 260px;  
+    }
+
+    .functions .services ul {
+        grid-template-columns: 1fr;
+        justify-items: center; 
+    }
+
+    .functions .services li p {
+        width: 250px;
+    }
 }

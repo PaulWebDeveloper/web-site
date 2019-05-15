@@ -138,4 +138,18 @@
         padding-top: 40px;
         height: 70px;
     }
+
+    /*   section functions  */
+
+    .functions .services>ul>li {
+        width: 220px;  
+    }
+
+    .functions .services ul {
+        grid-gap: 0 10px;
+    }
+
+    .functions .services li p {
+        width: 210px;
+    }
 }

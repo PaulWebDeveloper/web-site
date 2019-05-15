@@ -168,5 +168,33 @@
 
     .about-container .authors ul {
         grid-gap: 0 170px;
-    } 
+    }
+
+    /*   section functions  */
+
+    main .functions {
+        height: 630px;
+    }
+
+    main .functions .container {
+        display: block;  
+    }
+
+    .functions .services {
+        display: grid;
+        justify-content: center; 
+    }
+
+    .functions .services>ul>li {
+        width: 260px;  
+    }
+
+    .functions .services ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0 60px;
+    }
+
+    .functions .services li p {
+        width: 250px;
+    }
 }
