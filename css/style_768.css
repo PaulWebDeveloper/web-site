@@ -103,7 +103,7 @@
 
     /*         Main         */
     /*    section domain    */
-    
+
     main .domain {
         padding: 0 20px;
     }
@@ -120,5 +120,15 @@
 
     .package .package-container {
         margin: 20px 0 0 15px;
+    }
+
+    /*   section about-us   */
+    
+    .about-us .about-container {
+        padding-top: 90px;  
+    }
+
+    .about-container .authors ul {
+        grid-gap: 0 45px;
     }
 }

@@ -654,3 +654,99 @@ h3 {
 .biggest-package:hover {
     box-shadow: 0 0 10px 3px rgba(26, 188, 156, 0.5);
 }
+
+/*     section about-us      */
+
+.about-us {
+    height: 400px;  
+}
+
+.about-container {
+    border-top: 1px dashed #d4d4d4;
+    padding-top: 105px;  
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 522px auto;
+}
+
+.text-about {
+    max-width: 522px;
+    height: 186px;
+    border-right: 1px dashed #d4d4d4;
+}
+
+.text-about>p {
+    max-width: 430px;
+    font-size: 18px;
+    color: #747474;
+    font-family: Lato-Thin,sans-serif;
+    line-height: 1.5;
+    margin-top: 24px;
+}
+
+h4 {
+    font-size: 35px;
+    line-height: 1;
+    color: #303030;
+}
+
+strong {
+    font-weight: 800;
+}
+
+.authors {
+    text-align: center;
+    display: grid;
+    justify-content: end;
+}
+
+.authors ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 128px;   
+}
+
+.authors ul li>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    border: 5px solid #e5e5e5;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 17px;
+    color: #303030;
+    margin-top: 8px;
+}
+
+.authors p {
+    font-size: 15px;
+    color: #8e8e8e;
+    line-height: 1.5;
+}
+
+.authors button {
+    width: 16px;
+    height: 14px;
+    background: transparent;
+    border: transparent;
+    margin: 9px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.fa {
+    color: #bfbfbf;
+    font-size: 14px;
+}
+
+.authors li:first-child .fa-link {
+    color: #1f89ba;
+}
+
+.fa:hover {
+    color: #1f89ba;
+}

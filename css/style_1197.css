@@ -71,4 +71,15 @@
     .package .package-container {
         margin: 20px 0 0 15px;
     }
+
+    /*   section about-us   */
+    
+    .about-us .about-container {
+        margin: 0 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-container .authors ul {
+        grid-gap: 0 50px;
+    }
 }
