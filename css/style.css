@@ -233,3 +233,163 @@ h1 {
 .btn-reg a:hover {
     color: #21424a;
 }
+
+/*           Main            */
+/*      section domain       */
+
+.domain {
+    height: 578px;
+    max-width: 889px;
+    margin: 0 auto;
+}
+
+.domain__text {
+    padding-top: 88px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Lato-Heavy, sans-serif;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.domain__text p {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    color: #a2a2a2;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+    padding-top: 32px;
+}
+
+.domain__search {
+    height: 50px;
+    border: 1px solid #d9d9d9;
+    margin: 41px 0;
+}
+
+.form-domain {
+    height: 32px;
+    margin: 9px 0;
+    font-size: 15px;
+    color: #cbcbcb;
+    display: grid;
+    grid-template-columns: 72px auto 86px;
+    align-content: center;
+}
+
+.form-col:first-child {
+    border-right: 1px solid #cbcbcb;
+    display: grid;
+    align-content: center;
+}
+
+.form-domain input[type="text"]::-webkit-input-placeholder {
+    font-size: 15px;
+    font-weight: 400;
+    color: #868686;
+}
+
+.form-domain input[type="text"]:-moz-input-placeholder {
+    font-size: 15px;
+    font-weight: 400;
+    color: #868686;
+}
+
+.form-domain input {
+    height: 32px;
+    padding-left: 16px;
+    border: transparent;
+    display: grid;
+    justify-content: start;
+    width: 97%;
+}
+
+.form-col:last-child {
+    border-left: 1px solid #cbcbcb;
+    padding-left: 10px;
+}
+
+form select {
+    height: 32px;
+    font-size: 15px;
+    color: #cbcbcb;
+    background: transparent;
+    border: transparent;
+    -moz-appearance: none;
+    -webkit-appearance: none;  
+}
+
+.styled-select {
+    width: 50px;
+    height: 32px;
+    background: url(..//img/icons/domain/angle-down.png) no-repeat right; 
+    padding-right: 10px;
+}
+
+form input:focus,
+select:focus {
+    outline: transparent;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.domain-prices {
+    max-width: 889px;
+    height: 193px;
+    border: 1px solid #d9d9d9;
+    margin: 40px 0;
+    display: grid;
+    align-content: center;
+}
+
+.price-table {
+    height: 160px;
+    font-family: Lato-Regular, sans-serif;
+    color: #cbcbcb;
+    font-size: 14px;
+    line-height: 1;
+    display: grid;
+    grid-template-rows: 1fr 13px 1fr;
+}
+
+.price-table ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+}
+
+.price-table ul li {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-left: 1px solid #d9d9d9;  
+}
+
+.price-table ul li:first-child {
+    border-left: 1px solid transparent;
+}
+
+.price-table ul:nth-child(2) li {
+    border-left: 1px solid transparent;  
+}
+
+.table-stick {
+    padding: 0 32px;
+    align-content: center;
+    grid-gap: 13px;   
+}
+
+.table-stick li {
+    width: 208px;
+    height: 1px;
+    background: #d9d9d9;  
+}
+
+.table-stick li:first-child,
+.table-stick li:last-child {
+    width: 184px;
+}

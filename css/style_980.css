@@ -1,6 +1,6 @@
 @media (max-width: 980px) {
 
-    /*        header        */
+    /*        Header        */
 
     .wrappper header {
         height: 864px;
@@ -39,4 +39,76 @@
     .btn-reg .btn-reg__triangle {
         border-top: 98px solid transparent; 
     }
+
+    /*         Main         */
+    /*    section domain    */
+
+    main .domain {
+        height: 650px;
+        padding: 0 40px;
+    }
+
+    .domain .domain__text {
+        padding-top: 58px;
+    }
+
+    .domain h2 {
+        font-size: 22px;
+    }
+
+    .domain .domain__text p {
+        font-size: 16px;
+        line-height: 2;
+        margin-bottom: 4px;
+        padding-top: 28px;
+    }
+    
+    main .domain .container>div:last-child {
+        margin: 0 auto;
+    }
+
+    .domain .domain-prices {
+        width: 417px;
+        height: 386px;   
+        justify-content: center;
+    }
+
+    .domain-prices .price-table {
+        width: 385px;
+        height: 346px;
+        grid-template-rows: 100%;
+        grid-template-columns: 1fr 13px 1fr;   
+    }
+    
+    .domain-prices .price-table ul {
+        grid-template-columns: 100%;  
+        grid-template-rows: repeat(4, 1fr);  
+    }
+
+    .domain-prices .price-table ul li {
+        border-left: transparent;
+        border-bottom: 1px solid #d9d9d9; 
+    }
+
+    .domain-prices .price-table ul li:last-child {
+        border-bottom: 1px solid transparent;
+    }
+    
+    .price-table .table-stick {
+        padding: 0;
+        align-content: center;
+        grid-gap: 14px 0;   
+    }
+
+    .price-table .table-stick li {
+        width: 1px;
+        height: 72px;
+        margin-left: 6px;
+    }
+
+    .price-table .table-stick li:first-child,
+    .price-table .table-stick li:last-child {
+        width: 1px;
+        height: 78px;
+    }   
 }

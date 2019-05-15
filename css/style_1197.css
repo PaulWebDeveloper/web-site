@@ -1,9 +1,9 @@
 @media (max-width: 1197px) {
 
-    /*        header        */
+    /*        Header        */
 
     .wrapper header {
-        height: 960px;
+        height: 850px;
     }
 
     header .header__bg {
@@ -49,5 +49,12 @@
         
     .btn-reg .btn-reg__triangle {
         border-top: 109px solid transparent;    
+    }
+
+    /*         Main         */
+    /*    section domain    */
+
+    .domain .domain__text {
+        padding-top: 180px;
     }
 }

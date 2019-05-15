@@ -4,7 +4,7 @@
         grid-gap: 30px 0;
     }
     
-    /*        header        */
+    /*        Header        */
 
     .wrapper header {
         height: 604px;
@@ -99,5 +99,12 @@
     .member .buttons a {
         height: 70px;
         font-size: 18px;
+    }
+
+    /*         Main         */
+    /*    section domain    */
+
+    main .domain {
+        padding: 0 20px;
     }
 }
