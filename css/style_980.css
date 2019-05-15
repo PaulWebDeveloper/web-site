@@ -1,0 +1,42 @@
+@media (max-width: 980px) {
+
+    /*        header        */
+
+    .wrappper header {
+        height: 864px;
+    }
+
+    header .header__bg {
+        height: 765px;
+    }
+
+    header .img-overlay {
+        height: 765px;
+    }
+    
+    header .heading {
+        grid-template-columns: auto 490px; 
+    }
+
+    .heading nav ul {
+        grid-gap: 0 40px;
+    }
+    
+    header .header__text {
+        margin-top: 238px;
+    }
+        
+    .btn-log .btn-log__bg, 
+    .btn-reg .btn-reg__bg,
+    .member .buttons a {
+        height: 98px;  
+    }
+
+    .btn-log .btn-log__triangle {
+        border-bottom: 98px solid transparent;  
+    }
+        
+    .btn-reg .btn-reg__triangle {
+        border-top: 98px solid transparent; 
+    }
+}
