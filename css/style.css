@@ -750,3 +750,95 @@ h5 {
 .fa:hover {
     color: #1f89ba;
 }
+
+/*     section comments      */
+
+.comments {
+    background: url(..//img/comments-bg.jpg) no-repeat center;
+    background-size: cover; 
+    height: 190px;
+    color: #fff;
+    text-align: center;
+}
+
+.comments__pattern {
+    background: url(..//img/icons/pattern/pattern_2.png) 50% 0 repeat;
+}
+    
+.comments .img-overlay {
+    background: rgba(0, 0, 0, 0.75);
+    height: 190px;
+}
+
+.comment {
+    max-width: 889px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.slider {
+    height: 50px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.slider li {
+    position: absolute;
+    opacity: 0;
+}
+
+.slider li.show {
+    opacity: 1;
+}
+
+.comments-slide>div {
+    display: inline-block;
+    margin-top: 18px;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 800;
+    width: 110px;
+}
+
+.dots {
+    width: 100px;
+    height: 22px;
+    border-left: 1px solid #fff;
+}
+
+.radio {
+    display: none;
+}
+
+.radio-custom {
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border: 1px solid #fff;
+    position: relative;
+    cursor: pointer;
+    margin: 0 6px;
+}
+
+.radio-custom {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.radio:checked + .radio-custom::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    background: #fff;
+}
+
+.radio-custom,
+.radio:checked + .radio-custom::before {
+    border-radius: 8px;
+}
