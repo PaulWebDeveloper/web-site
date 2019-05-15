@@ -54,7 +54,21 @@
     /*         Main         */
     /*    section domain    */
 
+    main .domain {
+        height: 650px;
+    }
+
     .domain .domain__text {
         padding-top: 180px;
+    }
+
+    /*   section packages   */
+    
+    main .package {
+        width: 230px;
+    }
+
+    .package .package-container {
+        margin: 20px 0 0 15px;
     }
 }

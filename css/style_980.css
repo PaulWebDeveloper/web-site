@@ -44,7 +44,7 @@
     /*    section domain    */
 
     main .domain {
-        height: 650px;
+        height: 750px;
         padding: 0 40px;
     }
 
@@ -110,5 +110,32 @@
     .price-table .table-stick li:last-child {
         width: 1px;
         height: 78px;
-    }   
+    }
+
+    /*   section packages   */
+
+    main .packages {
+        height: 1430px;
+    }
+
+    main .packages__bg {
+        height: 1000px;
+    }
+
+    main .packages .img-overlay {
+        height: 1000px;
+    }
+
+    main .package {
+        width: 255px; 
+    }
+
+    main .packages .container {
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+    }
+
+    .package .package-container {
+        margin: 20px 0 0 27px;
+    }
 }

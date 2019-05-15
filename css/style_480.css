@@ -32,7 +32,7 @@
     /*    section domain    */
     
     main .domain {
-        height: 500px;   
+        height: 630px;   
     }
 
     .domain h2 {
@@ -96,5 +96,32 @@
 
     .domain .price-table ul:nth-child(2) {
         display: none;
-    }  
+    }
+
+    /*   section packages   */
+
+    main .packages {
+        height: 2550px;
+    }
+
+    main .packages__bg {
+        height: 383px;
+    }
+
+    main .packages .img-overlay {
+        height: 383px;
+    }
+
+    main .package {
+        width: 255px; 
+        margin-top: 60px;
+    }
+
+    main .packages .container {
+        grid-template-columns: 100%;
+    }
+
+    .package .package-container {
+        margin: 20px 0 0 27px;
+    }
 }

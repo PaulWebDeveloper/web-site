@@ -393,3 +393,264 @@ select:hover {
 .table-stick li:last-child {
     width: 184px;
 }
+
+/*     section packages      */
+
+.packages {
+    height: 765px;
+}
+
+.packages__bg {
+    background: url(..//img/packages-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 383px;
+}
+
+.packages__pattern {
+    background: url(..//img/icons/pattern/pattern_1.png) 50% 0 repeat;
+}
+
+.packages .img-overlay {
+    background: rgba(0, 0, 0, 0.83);
+    height: 383px;
+}
+
+.packages .container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.package {
+    width: 255px; 
+    height: 560px;
+    background: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.06);
+    font-size: 16px;
+    line-height: 1;
+    color: #cbcbcb;
+    margin-top: 100px;
+    cursor: pointer; 
+}
+
+.pack-items {
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    border-radius: 45px;
+    margin-top: 36px;
+    position: relative;
+}
+
+.package img {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.circle-basic {
+    border: 5px solid #f9d423;  
+}
+
+.circle-basic .rectangle-1, 
+.circle-normal .rectangle-1 {
+    width: 28px;
+    height: 54px;
+    background: #fff;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.circle-basic .rectangle-2 {
+    width: 54px;
+    height: 28px;
+    background: #fff;
+    position: absolute;
+    top: 22px;
+    left: -5px;
+}
+
+.circle-basic .circle-1,
+.circle-normal .circle-1,
+.circle-big .circle-1 {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #f9d423;
+    position: absolute;
+    top: -5px;
+    left: 21px;
+}
+
+.circle-basic .circle-2 {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #f9d423;
+    position: absolute;
+    top: 20px;
+    right: -5px;
+}
+
+.circle-normal {
+    border: 5px solid #7f8c8d; 
+}
+
+.circle-normal .circle-1 {
+    background: #7f8c8d;
+}
+
+.circle-normal .circle-2 {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #7f8c8d;
+    position: absolute;
+    bottom: -5px;
+    left: 21px;
+}
+
+.circle-big {
+    border: 5px solid #f85f40
+}
+
+.circle-big .rectangle-1 {
+    width: 28px;
+    height: 28px;
+    background: #fff;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.circle-big  .circle-1 {
+    background: #f85f40;
+}
+
+.circle-big .circle-2 {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #f85f40;
+    position: absolute;
+    top: 21px;
+    left: -5px;
+}
+
+.circle-biggest {
+    border: 5px solid #1abc9c; 
+}
+
+h3 {
+    font-family: Lato-Bold, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+}
+
+.package-container {
+    width: 202px;
+    height: 283px;
+    margin: 20px 0 0 27px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.package-container ul li {
+    padding: 20px 0 1px 0;
+}
+
+.package-container span {
+    float: right;
+}
+
+.plan {
+    width: 105px;
+    height: 30px;
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0 4px 0;
+    font-family: Lato-Bold, sans-serif;
+    position: relative;
+}
+
+.dollar {
+    font-size: 17px;
+    color: #000; 
+    position: absolute;
+    top: 32px;
+    left: 16px;
+}
+
+.month {
+    font-size: 13px;
+    color: #8d8d8d;  
+}
+
+.basic-package {
+    border-top: 5px solid #f9d423;
+}
+
+.basic-package ul span {
+    color: #f9d423;
+}
+
+.basic-package>.plan {
+    border-bottom: 3px solid #f9d423;
+}
+
+.basic-package:hover {
+    box-shadow: 0 0 10px 3px rgba(249, 212, 35, 0.5);
+}
+
+.normal-package {
+    border-top: 5px solid #7f8c8d;
+}
+
+.normal-package ul span {
+    color: #7f8c8d;
+}
+
+.normal-package>.plan {
+    border-bottom: 3px solid #7f8c8d;
+}
+
+.normal-package:hover {
+    box-shadow: 0 0 10px 3px rgba(127, 140, 141, 0.5);
+}
+
+.big-package {
+    border-top: 5px solid #f85f40;
+}
+
+.big-package ul span {
+    color: #f85f40;
+}
+
+.big-package>.plan {
+    border-bottom: 3px solid #f85f40;
+}
+
+.big-package:hover {
+    box-shadow: 0 0 10px 3px rgba(248, 95, 64, 0.5);
+}
+
+.biggest-package {
+    border-top: 5px solid #1abc9c;
+}
+
+.biggest-package ul span {
+    color: #1abc9c;
+}
+
+.biggest-package>.plan {
+    border-bottom: 3px solid #1abc9c;
+}
+
+.biggest-package:hover {
+    box-shadow: 0 0 10px 3px rgba(26, 188, 156, 0.5);
+}
