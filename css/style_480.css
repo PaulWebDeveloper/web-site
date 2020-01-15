@@ -1,0 +1,209 @@
+@media (max-width: 480px) {
+
+    /*        Header        */
+    
+    .header__text h1 {
+        font-size: 36px;
+    }
+
+    header .header__text p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 12px;
+    }
+
+    .member .buttons,
+    .buttons .btn-log,
+    .buttons .btn-reg {
+        grid-template-columns: auto;
+    }
+
+    .btn-log .btn-log__triangle,
+    .btn-reg .btn-reg__triangle {
+        display: none;
+    }
+
+    .member .buttons a {
+        height: 50px;
+        font-size: 14px;
+    }
+    
+    /*         Main         */
+    /*    section domain    */
+    
+    main .domain {
+        height: 630px;
+    }
+
+    .domain h2 {
+        font-size: 15px;
+        line-height: 2;
+    }
+
+    .domain .domain__text p {
+        font-size: 13px;
+        padding-top: 18px;
+    }
+
+    .domain__text .domain__search {
+        height: 46px;
+    }
+
+    .domain__search .form-domain {
+        height: 28px;
+        font-size: 14px;
+        grid-template-columns: 50px auto 70px;
+    }
+
+    .domain__search .form-domain input {
+        height: 28px;
+    }
+
+    .domain__search .form-domain input[type="text"]::-webkit-input-placeholder {
+        font-size: 14px;
+    }
+    
+    .domain__search .form-domain input[type="text"]:-moz-input-placeholder {
+        font-size: 14px;
+    }
+
+    form .form-col:last-child {
+        border-left: 1px solid #cbcbcb;
+        padding-left: 5px;
+    }
+
+    form .styled-select {
+        width: 45px;
+        height: 28px;
+    }
+
+    .domain .domain-prices {
+        width: 260px;
+        height: 280px;
+        justify-content: center;
+    }
+
+    .domain .price-table {
+        font-size: 12px;
+        width: 260px;
+        height: 280px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .domain .price-table ul:nth-child(1) {
+        border-right: 1px solid #d9d9d9;
+    }
+
+    .domain .price-table ul:nth-child(2) {
+        display: none;
+    }
+
+    /*   section packages   */
+
+    main .packages {
+        height: 2550px;
+    }
+
+    main .packages__bg {
+        height: 383px;
+    }
+
+    main .packages .img-overlay {
+        height: 383px;
+    }
+
+    main .package {
+        width: 255px;
+        margin-top: 60px;
+    }
+
+    main .packages .container {
+        grid-template-columns: 100%;
+    }
+
+    .package .package-container {
+        margin: 20px 0 0 27px;
+    }
+
+    /*   section about-us   */
+
+    main .about-us {
+        height: 1150px;
+    }
+    
+    .about-us .about-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 340px auto;
+        grid-gap: 50px 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-gap: 0;
+    }
+ 
+    .about-us .text-about {
+        height: 300px;
+    }
+    
+    .about-us .text-about>p {
+        font-size: 16px;
+    }
+
+    .text-about h4 {
+        font-size: 28px
+    }
+
+    .about-container .authors {
+        padding-top: 0;
+    }
+
+    .about-container .authors ul {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 50px 0px;
+    }
+
+    /*   section functions  */
+
+    main .functions {
+        height: 1200px;
+    }
+
+    .functions .services>ul>li {
+        width: 260px;
+    }
+
+    .functions .services ul {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .functions .services li p {
+        width: 250px;
+    }
+
+    /*        Footer        */
+
+    .footer__menu .footer__bottom-menu {
+        font-size: 13px
+    }
+
+    .footer__bottom-menu .area-1 {
+        height: 150px;
+    }
+
+    .footer__bottom-menu .area-1 p {
+        width: 260px;
+    }
+
+    .footer__bottom-menu .area-2 ul {
+        grid-gap: 0;
+    }
+
+    .footer__bottom-menu .area-2 ul li {
+        width: 130px;
+    }
+    
+    .footer__bottom-menu .area-3 {
+        font-size: 13px;
+    }
+}
